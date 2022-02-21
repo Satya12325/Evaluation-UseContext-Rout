@@ -14,7 +14,7 @@ export default function Prerequsite() {
     }
   return (
     <>
-      <div style={{width: "50%", margin:"auto"}}>
+      <div style={{width: "40%", margin:"auto", border: "1px solid black",marginTop:"30px"}}>
         <div>
         <input
           checked={attend}

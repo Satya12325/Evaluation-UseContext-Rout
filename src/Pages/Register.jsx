@@ -15,7 +15,7 @@ export default function Registration(){
 
     return(
         <>
-        <div>
+        <div style={{width:"15%",margin:"auto",border: "1px solid black",padding: "20px"}}>
             <lable>Enter your Full Name : </lable>
             <input type="text" 
                 value={name}
@@ -35,8 +35,8 @@ export default function Registration(){
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter your Password"
             />
-        </div>
         <button onClick ={onSubmit}>Submit</button>
+        </div>
         </>
     )
 
